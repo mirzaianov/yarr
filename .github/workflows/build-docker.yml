@@ -3,7 +3,7 @@ name: Publish Docker Hub Image
 on:
   push:
     tags:
-      - "v*"
+      - "v*-f*"
   workflow_dispatch:
 
 env:
